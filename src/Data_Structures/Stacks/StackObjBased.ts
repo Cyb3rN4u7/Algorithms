@@ -1,4 +1,4 @@
-
+//  complexity O(1)  toString is not included
 class StackObjBased{
     count: number;
     items: {[k: string]: any};

@@ -1,4 +1,4 @@
-
+//  complexity O(n)
 class StackArrayBased{
     items: any[];
     constructor(){
