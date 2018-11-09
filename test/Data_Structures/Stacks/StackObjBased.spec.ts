@@ -1,9 +1,9 @@
 import { expect } from 'chai';
 import 'mocha';
 
-import StackArrayBased from '../../../src/Data_Structures/Stacks/StackArrayBased';
+import StackArrayBased from '../../../src/Data_Structures/Stacks/StackObjBased';
 
-describe('Stack Array Based Tests', () => {
+describe('Stack Object Based Tests', () => {
 
     let stack = new StackArrayBased();
 
