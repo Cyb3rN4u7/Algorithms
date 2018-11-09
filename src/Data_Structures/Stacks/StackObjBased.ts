@@ -42,6 +42,18 @@ class StackObjBased{
     size(){
         return this.count;
     }
+
+    toString(){
+        if (this.isEmpty()) {
+            return '';
+        }
+        let itemString = `${this.items[0]}`;
+        for (let i=1; i<this.count;i++){
+            itemString = `${itemString},${this.items[i]}`;
+        }
+
+        return itemString;
+    }
 }
 
 

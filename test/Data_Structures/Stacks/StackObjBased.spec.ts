@@ -45,6 +45,16 @@ describe('Stack Object Based Tests', () => {
       expect(stack.pop()).to.equal(undefined);
     });
 
+    it('test toString()', ()=>{
+      stack.clear();
+      expect(stack.toString()).to.equal('');
+      stack.push(0);
+      expect(stack.toString()).to.equal('0');
+      stack.push(10);
+      stack.push(100)
+      expect(stack.toString()).to.equal('0,10,100');
+    });
+
    
 
    
